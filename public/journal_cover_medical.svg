@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="medgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#022c22"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#medgrad)"/>
+  
+  <!-- DNA & Neural Illustration -->
+  <g stroke="#34d399" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M100 80 Q 150 130 200 80 T 100 200 T 200 260"/>
+    <path d="M200 80 Q 150 130 100 80 T 200 200 T 100 260"/>
+    <line x1="125" y1="105" x2="175" y2="105"/>
+    <line x1="110" y1="140" x2="190" y2="140"/>
+    <line x1="125" y1="175" x2="175" y2="175"/>
+    <line x1="150" y1="210" x2="150" y2="210"/>
+  </g>
+  <circle cx="150" cy="140" r="6" fill="#10b981"/>
+  <circle cx="125" cy="105" r="4" fill="#34d399"/>
+  <circle cx="175" cy="105" r="4" fill="#34d399"/>
+  
+  <!-- Header Text -->
+  <rect x="25" y="30" width="120" height="22" rx="4" fill="rgba(16, 185, 129, 0.2)" stroke="rgba(16, 185, 129, 0.4)"/>
+  <text x="35" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#34d399" letter-spacing="1">MEDICAL RESEARCH</text>
+  
+  <!-- Title -->
+  <text x="25" y="285" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#ffffff">Clinical Neuroscience</text>
+  <text x="25" y="308" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#6ee7b7">&amp; Genomics Journal</text>
+  
+  <line x1="25" y1="325" x2="275" y2="325" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  
+  <text x="25" y="350" font-family="sans-serif" font-size="11" fill="#a7f3d0">Prof. Sarah Vance, MD</text>
+  <text x="25" y="368" font-family="sans-serif" font-size="9" fill="#64748b">ISSN 1892-0041 • VOL 28 ISSUE 10</text>
+</svg>

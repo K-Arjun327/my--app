@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-dark: #edf7f2;
+}
+
+html, body, #root {
+  background-color: #edf7f2 !important;
+  color: #0c2b1c !important;
+  min-height: 100vh;
+}
+
+/* Bold high-contrast text for ultimate legibility */
+p, span, label, td, th {
+  color: #0c2b1c;
+  font-weight: 600;
+}
+
+/* Force remove ALL box shadows everywhere across the entire application */
+*, *::before, *::after,
+*:hover, *:focus, *:active, *:visited {
+  box-shadow: none !important;
+}
+
+/* Clean cursor pointer for all cards, buttons, links, containers, and interactive elements */
+a, button, input, select, textarea,
+.nav-link, .nav-item, .metric-card, .section-card,
+.welcome-hero, .cart-button-link, .account-button-link,
+.brand-logo-container, .action-btn-primary, .action-btn-secondary,
+.author-card, .category-card, .journal-card, .profile-card,
+[onClick], [role="button"] {
+  cursor: pointer !important;
+}
+
+/* On hover/touch, keep cursor pointer, ensure zero shadow, and apply clean underline */
+a:hover, button:hover, .metric-card:hover, .section-card:hover,
+.welcome-hero:hover, .author-card:hover, .category-card:hover,
+.journal-card:hover, .profile-card:hover, [onClick]:hover {
+  box-shadow: none !important;
+  cursor: pointer !important;
+}
+
+a:hover, .nav-link:hover, .view-all-link:hover, [onClick]:hover span {
+  text-decoration: underline !important;
+  text-underline-offset: 5px;
+  text-decoration-color: #10b981 !important;
+}

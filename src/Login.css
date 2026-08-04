@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --bg-dark: #edf7f2;
+  --card-bg: #ffffff;
+  --card-border: #cbe6d7;
+  --accent-primary: #10b981;
+  --accent-primary-hover: #059669;
+  --accent-secondary: #047857;
+  --accent-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  --text-main: #0c2b1c;
+  --text-muted: #0a3d24;
+  --input-bg: #f8faf9;
+  --input-border: #cbe6d7;
+  --input-focus: #10b981;
+  --error-bg: #fef2f2;
+  --error-text: #ef4444;
+  --success-color: #10b981;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login-wrapper {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  overflow: hidden;
+  padding: 2rem 1rem;
+}
+
+/* Background Ambient Orbs */
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+}
+
+.orb-1 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.2), transparent 70%);
+  top: -150px;
+  left: -100px;
+}
+
+.orb-2 {
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, rgba(4, 120, 87, 0.2), transparent 70%);
+  bottom: -200px;
+  right: -150px;
+}
+
+.orb-3 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.15), transparent 70%);
+  top: 40%;
+  left: 30%;
+  animation: floatOrb3 18s infinite ease-in-out alternate;
+}
+
+/* Main Container Card - No Black Shadow */
+.login-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--card-border);
+  border-radius: 28px;
+  box-shadow: 0 12px 30px rgba(12, 43, 28, 0.08);
+  overflow: hidden;
+  animation: cardFadeIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.brand-badge-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.brand-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #d1fae5;
+  border: 1px solid #10b981;
+  color: #047857;
+  font-size: 0.825rem;
+  font-weight: 800;
+  width: fit-content;
+}
+
+.brand-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #10b981;
+}
+
+/* Form Card */
+.form-card {
+  padding: 2.75rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Card Top & Tab Switcher - Clean Light Mint Theme */
+.card-top {
+  margin-bottom: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-switcher {
+  display: flex;
+  width: 100%;
+  background: #f1f5f9;
+  padding: 4px;
+  border-radius: 999px;
+  border: 1px solid #cbe6d7;
+  margin-bottom: 1.5rem;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 10px 16px;
+  border: none;
+  background: transparent;
+  color: #0a3d24;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.tab-btn.active {
+  background: #10b981;
+  color: white;
+  box-shadow: none;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form-header h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #0c2b1c;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.01em;
+}
+
+.form-header p {
+  color: #0a3d24;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.demo-fill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #b45309;
+  font-size: 0.775rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.demo-fill-btn:hover {
+  background: #fde68a;
+  transform: translateY(-1px);
+}
+
+/* Auth Form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-group label {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #0c2b1c;
+}
+
+.forgot-link-btn {
+  background: none;
+  border: none;
+  color: #047857;
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.forgot-link-btn:hover {
+  color: #10b981;
+  text-decoration: underline;
+}
+
+.input-field-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.field-icon {
+  position: absolute;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+  color: #047857;
+  transition: color 0.2s ease;
+  pointer-events: none;
+}
+
+.input-field-wrapper input {
+  width: 100%;
+  padding: 13px 14px 13px 44px;
+  background: #f8faf9;
+  border: 1.5px solid #cbe6d7;
+  border-radius: 12px;
+  color: #0c2b1c;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: inherit;
+  transition: all 0.25s ease;
+}
+
+.input-field-wrapper input:focus {
+  outline: none;
+  background: #ffffff;
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
+}
+
+.toggle-visibility {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #047857;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Custom Checkbox */
+.remember-row {
+  display: flex;
+  align-items: center;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #0a3d24;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+.checkbox-box {
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  border: 1.5px solid #cbe6d7;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.custom-checkbox input:checked + .checkbox-box {
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+.checkbox-box svg {
+  width: 12px;
+  height: 12px;
+  color: white;
+  opacity: 0;
+  transform: scale(0.6);
+  transition: all 0.2s ease;
+}
+
+.custom-checkbox input:checked + .checkbox-box svg {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Error Alert */
+.error-alert {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  color: #b91c1c;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: var(--accent-gradient);
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: none;
+  position: relative;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  background: #059669;
+}
+
+/* Social Buttons - Clean Light Theme */
+.social-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 1.5rem 0 1.25rem 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: #cbe6d7;
+}
+
+.divider-text {
+  font-size: 0.775rem;
+  color: #047857;
+  font-weight: 800;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 11px 16px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1.5px solid #cbe6d7;
+  color: #0c2b1c;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.social-btn:hover {
+  background: #d1fae5;
+  border-color: #10b981;
+  color: #047857;
+  transform: translateY(-1px);
+}
+
+/* Responsive Media Queries */
+@media (max-width: 520px) {
+  .login-wrapper {
+    padding: 1rem 0.75rem;
+  }
+
+  .login-container {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+  .form-card {
+    padding: 2rem 1.5rem;
+  }
+}
