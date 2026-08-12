@@ -11,7 +11,7 @@ export default function NewArrivals() {
       author: "Hampton Sides",
       releaseDate: "Published July 2026",
       category: "Maritime Expeditions",
-      price: "$30.00",
+      price: "₹899",
       image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
       badge: "2026 EXPEDITION",
       isbn: "ISBN 978-0385544856"
@@ -21,7 +21,7 @@ export default function NewArrivals() {
       author: "Ethan Mollick",
       releaseDate: "Published August 2026",
       category: "Artificial Intelligence",
-      price: "$29.00",
+      price: "₹849",
       image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
       badge: "2026 TECH RELEASE",
       isbn: "ISBN 978-0593716717"
@@ -31,7 +31,7 @@ export default function NewArrivals() {
       author: "Shane Parrish",
       releaseDate: "Published August 2026",
       category: "Cognitive Philosophy",
-      price: "$27.00",
+      price: "₹799",
       image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=600&q=80",
       badge: "BESTSELLER 2026",
       isbn: "ISBN 978-0593086117"
@@ -41,7 +41,7 @@ export default function NewArrivals() {
       author: "Erik Larson",
       releaseDate: "Published July 2026",
       category: "Historical Warfare",
-      price: "$32.00",
+      price: "₹949",
       image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
       badge: "HISTORY HARDBACK",
       isbn: "ISBN 978-0385348744"
@@ -51,7 +51,7 @@ export default function NewArrivals() {
       author: "Charles Duhigg",
       releaseDate: "Published June 2026",
       category: "Behavioral Science",
-      price: "$28.00",
+      price: "₹799",
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80",
       badge: "CRITICS CHOICE",
       isbn: "ISBN 978-0593243916"
@@ -61,7 +61,7 @@ export default function NewArrivals() {
       author: "Kyle Chayka",
       releaseDate: "Published July 2026",
       category: "Digital Culture",
-      price: "$26.50",
+      price: "₹749",
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
       badge: "2026 ESSAY",
       isbn: "ISBN 978-0385548564"
@@ -71,7 +71,7 @@ export default function NewArrivals() {
       author: "Mustafa Suleyman",
       releaseDate: "Published August 2026",
       category: "Quantum & Biotech",
-      price: "$32.50",
+      price: "₹999",
       image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=600&q=80",
       badge: "POLICY RELEASE",
       isbn: "ISBN 978-0593593950"
@@ -81,7 +81,7 @@ export default function NewArrivals() {
       author: "Cal Newport",
       releaseDate: "Published July 2026",
       category: "Professional Philosophy",
-      price: "$27.99",
+      price: "₹799",
       image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=600&q=80",
       badge: "NEW HARDBACK",
       isbn: "ISBN 978-0593544853"

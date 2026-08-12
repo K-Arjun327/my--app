@@ -5,13 +5,13 @@ export default function Profile() {
   const navigate = useNavigate();
 
   const activeSubscriptions = [
-    { name: "Quantum Physics Quarterly", tier: "Annual Hardcover License", status: "Active • Auto-renews Nov 2026", price: "$149/yr" },
-    { name: "Journal of Clinical Neuroscience", tier: "Institutional Digital + Print", status: "Active • Auto-renews Jan 2027", price: "$185/yr" }
+    { name: "Quantum Physics Quarterly", tier: "Annual Hardcover License", status: "Active • Auto-renews Nov 2026", price: "₹4,999/yr" },
+    { name: "Journal of Clinical Neuroscience", tier: "Institutional Digital + Print", status: "Active • Auto-renews Jan 2027", price: "₹6,499/yr" }
   ];
 
   const pastOrders = [
-    { id: "#LUM-884920", title: "Handcrafted Leather Journal", date: "July 12, 2026", status: "Delivered 📦", total: "$89.00" },
-    { id: "#LUM-742911", title: "AI Intelligence Review (Vol. 42)", date: "May 28, 2026", status: "Delivered 📦", total: "$120.00" }
+    { id: "#BM-884920", title: "Handcrafted Leather Journal", date: "July 12, 2026", status: "Delivered 📦", total: "₹2,499" },
+    { id: "#BM-742911", title: "AI Intelligence Review (Vol. 42)", date: "May 28, 2026", status: "Delivered 📦", total: "₹3,499" }
   ];
 
   return (

@@ -13,14 +13,14 @@ export default function Home() {
   ];
 
   const featuredBooks = [
-    { title: "Endurance: Shackleton's Incredible Voyage", category: "Adventure", price: "$24.99", image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80", author: "Alfred Lansing" },
-    { title: "Cosmos: A Personal Voyage", category: "Astronomy", price: "$28.00", image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80", author: "Carl Sagan" },
-    { title: "Sapiens: A Brief History of Humankind", category: "History", price: "$26.99", image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80", author: "Yuval Noah Harari" },
-    { title: "The Great Gatsby", category: "Classic Literature", price: "$15.99", image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80", author: "F. Scott Fitzgerald" },
-    { title: "Prisoners of Geography", category: "Geographical", price: "$22.00", image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=600&q=80", author: "Tim Marshall" },
-    { title: "The Emperor of All Maladies", category: "Medical Research", price: "$27.95", image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80", author: "Siddhartha Mukherjee" },
-    { title: "The Elegant Universe", category: "Quantum Physics", price: "$24.50", image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=600&q=80", author: "Brian Greene" },
-    { title: "Into Thin Air: Everest Disaster", category: "Adventure", price: "$18.99", image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80", author: "Jon Krakauer" }
+    { title: "Endurance: Shackleton's Incredible Voyage", category: "Adventure", price: "₹699", image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80", author: "Alfred Lansing" },
+    { title: "Cosmos: A Personal Voyage", category: "Astronomy", price: "₹899", image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80", author: "Carl Sagan" },
+    { title: "Sapiens: A Brief History of Humankind", category: "History", price: "₹799", image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80", author: "Yuval Noah Harari" },
+    { title: "The Great Gatsby", category: "Classic Literature", price: "₹499", image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80", author: "F. Scott Fitzgerald" },
+    { title: "Prisoners of Geography", category: "Geographical", price: "₹649", image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=600&q=80", author: "Tim Marshall" },
+    { title: "The Emperor of All Maladies", category: "Medical Research", price: "₹849", image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80", author: "Siddhartha Mukherjee" },
+    { title: "The Elegant Universe", category: "Quantum Physics", price: "₹749", image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=600&q=80", author: "Brian Greene" },
+    { title: "Into Thin Air: Everest Disaster", category: "Adventure", price: "₹599", image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80", author: "Jon Krakauer" }
   ];
 
   return (

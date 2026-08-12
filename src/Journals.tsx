@@ -29,7 +29,7 @@ export default function Journals() {
         title: "Quantum Physics & AI Intelligence",
         author: "Dr. Eliza Reed & Dr. Alan Chen",
         category: "Scientific",
-        price: 149.00,
+        price: 1499.00,
         rating: 4.9,
         reviewsCount: 128,
         issn: "ISSN 2049-3821",
@@ -53,7 +53,7 @@ export default function Journals() {
       title: "Endurance: Shackleton's Incredible Voyage",
       author: "Alfred Lansing",
       category: "Adventure",
-      price: 24.99,
+      price: 869,
       rating: 4.9,
       reviewsCount: 1540,
       issn: "ISBN 978-0465062294",
@@ -67,7 +67,7 @@ export default function Journals() {
       title: "Cosmos: A Personal Voyage",
       author: "Carl Sagan",
       category: "Astrology",
-      price: 28.00,
+      price: 979,
       rating: 5.0,
       reviewsCount: 3200,
       issn: "ISBN 978-0345331359",
@@ -81,7 +81,7 @@ export default function Journals() {
       title: "Sapiens: A Brief History of Humankind",
       author: "Yuval Noah Harari",
       category: "History",
-      price: 26.99,
+      price: 939,
       rating: 4.9,
       reviewsCount: 4800,
       issn: "ISBN 978-0062316097",
@@ -95,7 +95,7 @@ export default function Journals() {
       title: "The Great Gatsby",
       author: "F. Scott Fitzgerald",
       category: "Stories",
-      price: 15.99,
+      price: 559,
       rating: 4.8,
       reviewsCount: 2900,
       issn: "ISBN 978-0743273565",
@@ -109,7 +109,7 @@ export default function Journals() {
       title: "Prisoners of Geography",
       author: "Tim Marshall",
       category: "Geographical",
-      price: 22.00,
+      price: 769,
       rating: 4.85,
       reviewsCount: 1850,
       issn: "ISBN 978-1501121470",
@@ -123,7 +123,7 @@ export default function Journals() {
       title: "The Emperor of All Maladies: A Biography of Cancer",
       author: "Siddhartha Mukherjee",
       category: "Medical",
-      price: 27.95,
+      price: 979,
       rating: 4.95,
       reviewsCount: 2100,
       issn: "ISBN 978-1439170915",
@@ -137,7 +137,7 @@ export default function Journals() {
       title: "The Elegant Universe: Superstrings & Hidden Dimensions",
       author: "Brian Greene",
       category: "Scientific",
-      price: 24.50,
+      price: 859,
       rating: 4.9,
       reviewsCount: 1640,
       issn: "ISBN 978-0393058581",
@@ -151,7 +151,7 @@ export default function Journals() {
       title: "Into Thin Air: Mt. Everest Disaster",
       author: "Jon Krakauer",
       category: "Adventure",
-      price: 18.99,
+      price: 659,
       rating: 4.9,
       reviewsCount: 2750,
       issn: "ISBN 978-0385494786",
@@ -165,7 +165,7 @@ export default function Journals() {
       title: "A Brief History of Time",
       author: "Stephen Hawking",
       category: "Astrology",
-      price: 25.00,
+      price: 879,
       rating: 4.88,
       reviewsCount: 3900,
       issn: "ISBN 978-0553380163",
@@ -179,7 +179,7 @@ export default function Journals() {
       title: "To Kill a Mockingbird",
       author: "Harper Lee",
       category: "Stories",
-      price: 16.99,
+      price: 589,
       rating: 4.95,
       reviewsCount: 5100,
       issn: "ISBN 978-0060935467",
@@ -193,7 +193,7 @@ export default function Journals() {
       title: "Guns, Germs, and Steel: Fates of Human Societies",
       author: "Jared Diamond",
       category: "Geographical",
-      price: 21.95,
+      price: 769,
       rating: 4.85,
       reviewsCount: 2200,
       issn: "ISBN 978-0393354379",
@@ -207,7 +207,7 @@ export default function Journals() {
       title: "Steve Jobs: The Exclusive Biography",
       author: "Walter Isaacson",
       category: "History",
-      price: 32.00,
+      price: 1119,
       rating: 4.92,
       reviewsCount: 3400,
       issn: "ISBN 978-1451648539",
@@ -221,7 +221,7 @@ export default function Journals() {
       title: "The Lost City of Z: Amazonian Expedition",
       author: "David Grann",
       category: "Adventure",
-      price: 19.95,
+      price: 699,
       rating: 4.85,
       reviewsCount: 1420,
       issn: "ISBN 978-1400082148",
@@ -235,7 +235,7 @@ export default function Journals() {
       title: "1984: Dystopian Fiction Masterpiece",
       author: "George Orwell",
       category: "Stories",
-      price: 14.99,
+      price: 519,
       rating: 4.92,
       reviewsCount: 6200,
       issn: "ISBN 978-0451524935",
@@ -249,7 +249,7 @@ export default function Journals() {
       title: "The Alchemist: Magical Fable",
       author: "Paulo Coelho",
       category: "Stories",
-      price: 17.50,
+      price: 609,
       rating: 4.88,
       reviewsCount: 4900,
       issn: "ISBN 978-0062315007",
@@ -263,7 +263,7 @@ export default function Journals() {
       title: "The Revenge of Geography",
       author: "Robert D. Kaplan",
       category: "Geographical",
-      price: 23.00,
+      price: 809,
       rating: 4.8,
       reviewsCount: 980,
       issn: "ISBN 978-0345848321",
@@ -277,7 +277,7 @@ export default function Journals() {
       title: "Astrology for the Soul",
       author: "Jan Spiller",
       category: "Astrology",
-      price: 21.00,
+      price: 739,
       rating: 4.9,
       reviewsCount: 1750,
       issn: "ISBN 978-0553378382",
@@ -291,7 +291,7 @@ export default function Journals() {
       title: "Astrophysics for People in a Hurry",
       author: "Neil deGrasse Tyson",
       category: "Astrology",
-      price: 18.95,
+      price: 659,
       rating: 4.87,
       reviewsCount: 3100,
       issn: "ISBN 978-0393609394",
@@ -305,7 +305,7 @@ export default function Journals() {
       title: "Alexander Hamilton: Founding Biography",
       author: "Ron Chernow",
       category: "History",
-      price: 29.99,
+      price: 1049,
       rating: 4.95,
       reviewsCount: 2800,
       issn: "ISBN 978-0143034759",
@@ -319,7 +319,7 @@ export default function Journals() {
       title: "When Breath Becomes Air",
       author: "Paul Kalanithi",
       category: "Medical",
-      price: 20.00,
+      price: 699,
       rating: 4.95,
       reviewsCount: 3950,
       issn: "ISBN 978-0812988406",
@@ -333,7 +333,7 @@ export default function Journals() {
       title: "Wild: From Lost to Found on the Pacific Crest Trail",
       author: "Cheryl Strayed",
       category: "Adventure",
-      price: 17.99,
+      price: 629,
       rating: 4.88,
       reviewsCount: 3100,
       issn: "ISBN 978-0307476074",
@@ -347,7 +347,7 @@ export default function Journals() {
       title: "In the Kingdom of Ice: Arctic Expedition",
       author: "Hampton Sides",
       category: "Adventure",
-      price: 22.50,
+      price: 789,
       rating: 4.92,
       reviewsCount: 1620,
       issn: "ISBN 978-0307946379",
@@ -361,7 +361,7 @@ export default function Journals() {
       title: "One Hundred Years of Solitude",
       author: "Gabriel García Márquez",
       category: "Stories",
-      price: 18.99,
+      price: 659,
       rating: 4.96,
       reviewsCount: 5400,
       issn: "ISBN 978-0060883287",
@@ -375,7 +375,7 @@ export default function Journals() {
       title: "Pride and Prejudice",
       author: "Jane Austen",
       category: "Stories",
-      price: 14.50,
+      price: 509,
       rating: 4.94,
       reviewsCount: 6100,
       issn: "ISBN 978-0141439518",
@@ -389,7 +389,7 @@ export default function Journals() {
       title: "The Map That Changed the World",
       author: "Simon Winchester",
       category: "Geographical",
-      price: 21.00,
+      price: 739,
       rating: 4.86,
       reviewsCount: 1350,
       issn: "ISBN 978-0060931803",
@@ -403,7 +403,7 @@ export default function Journals() {
       title: "The Sixth Extinction: An Unnatural History",
       author: "Elizabeth Kolbert",
       category: "Geographical",
-      price: 24.00,
+      price: 839,
       rating: 4.9,
       reviewsCount: 2250,
       issn: "ISBN 978-0805092998",
@@ -417,7 +417,7 @@ export default function Journals() {
       title: "The Planets: Solar System Exploration",
       author: "Dava Sobel",
       category: "Astrology",
-      price: 19.99,
+      price: 699,
       rating: 4.87,
       reviewsCount: 1480,
       issn: "ISBN 978-0143036937",
@@ -431,7 +431,7 @@ export default function Journals() {
       title: "The Only Astrology Book You'll Ever Need",
       author: "Joanna Martine Woolfolk",
       category: "Astrology",
-      price: 26.50,
+      price: 929,
       rating: 4.92,
       reviewsCount: 4200,
       issn: "ISBN 978-1589793774",
@@ -445,7 +445,7 @@ export default function Journals() {
       title: "The Guns of August: WWI Military History",
       author: "Barbara W. Tuchman",
       category: "History",
-      price: 27.50,
+      price: 959,
       rating: 4.94,
       reviewsCount: 2980,
       issn: "ISBN 978-0345386236",
@@ -459,7 +459,7 @@ export default function Journals() {
       title: "Leonardo da Vinci: Genius Biography",
       author: "Walter Isaacson",
       category: "History",
-      price: 35.00,
+      price: 1229,
       rating: 4.95,
       reviewsCount: 3800,
       issn: "ISBN 978-1501139154",
@@ -601,7 +601,7 @@ export default function Journals() {
 
                 <div style={{ marginTop: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '10px', borderTop: '1px solid #cbe6d7' }}>
                   <span style={{ fontSize: '1.35rem', fontWeight: 800, color: '#0c2b1c' }}>
-                    ${journal.price.toFixed(2)}
+                    ₹{journal.price.toLocaleString('en-IN')}
                   </span>
 
                   <div style={{ display: 'flex', gap: '5px' }}>
@@ -647,8 +647,8 @@ export default function Journals() {
                     <img src={item.book.image} alt={item.book.title} style={{ width: '50px', height: '65px', objectFit: 'cover', borderRadius: '6px' }} />
                     <div style={{ flex: 1 }}>
                       <h4 style={{ fontSize: '0.875rem', margin: '0 0 4px 0', fontWeight: 600, color: '#0f172a' }}>{item.book.title}</h4>
-                      <p style={{ fontSize: '0.75rem', color: '#64748b', margin: '0 0 6px 0' }}>Qty: {item.qty} × ${item.book.price}</p>
-                      <span style={{ fontSize: '0.9rem', fontWeight: 700, color: '#059669' }}>${(item.book.price * item.qty).toFixed(2)}</span>
+                      <p style={{ fontSize: '0.75rem', color: '#64748b', margin: '0 0 6px 0' }}>Qty: {item.qty} × ₹{item.book.price.toLocaleString('en-IN')}</p>
+                      <span style={{ fontSize: '0.9rem', fontWeight: 700, color: '#059669' }}>₹{(item.book.price * item.qty).toLocaleString('en-IN')}</span>
                     </div>
                     <button onClick={() => removeFromCart(item.book.id)} style={{ background: 'none', border: 'none', color: '#dc2626', cursor: 'pointer', height: 'fit-content' }}>🗑️</button>
                   </div>
@@ -660,7 +660,7 @@ export default function Journals() {
               <div style={{ paddingTop: '1.5rem', borderTop: '1px solid #e2e8f0', marginTop: 'auto' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', fontSize: '1.1rem', fontWeight: 700, color: '#0f172a' }}>
                   <span>Subtotal</span>
-                  <span>${cartSubtotal.toFixed(2)}</span>
+                  <span>₹{cartSubtotal.toLocaleString('en-IN')}</span>
                 </div>
                 <button
                   className="action-btn-primary"
@@ -697,7 +697,7 @@ export default function Journals() {
 
                 <div style={{ display: 'flex', gap: '12px' }}>
                   <button type="button" className="action-btn-secondary" style={{ flex: 1 }} onClick={() => setIsCheckoutOpen(false)}>Cancel</button>
-                  <button type="submit" className="action-btn-primary" style={{ flex: 1, justifyContent: 'center' }}>Confirm Order (${cartSubtotal.toFixed(2)})</button>
+                  <button type="submit" className="action-btn-primary" style={{ flex: 1, justifyContent: 'center' }}>Confirm Order (₹{cartSubtotal.toLocaleString('en-IN')})</button>
                 </div>
               </form>
             ) : (
@@ -736,7 +736,7 @@ export default function Journals() {
               </div>
               <p style={{ fontSize: '0.875rem', color: '#334155', lineHeight: 1.5, marginBottom: '1.5rem' }}>{selectedBookModal.description}</p>
               <div style={{ marginTop: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                <span style={{ fontSize: '1.5rem', fontWeight: 800, color: '#0f172a' }}>${selectedBookModal.price.toFixed(2)}</span>
+                <span style={{ fontSize: '1.5rem', fontWeight: 800, color: '#0f172a' }}>₹{selectedBookModal.price.toLocaleString('en-IN')}</span>
                 <div style={{ display: 'flex', gap: '10px' }}>
                   <button className="action-btn-secondary" onClick={() => setSelectedBookModal(null)}>Close</button>
                   <button className="action-btn-primary" onClick={() => { addToCart(selectedBookModal); setSelectedBookModal(null); }}>Add to Order</button>

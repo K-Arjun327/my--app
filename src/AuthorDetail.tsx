@@ -149,7 +149,7 @@ export default function AuthorDetail() {
                   <div style={{ marginTop: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '10px', borderTop: '1px solid #cbe6d7' }}>
                     <div>
                       <span style={{ fontSize: '1.3rem', fontWeight: 800, color: '#0c2b1c', display: 'block' }}>
-                        ${book.price.toFixed(2)}
+                        ₹{book.price.toLocaleString('en-IN')}
                       </span>
                       <span style={{ fontSize: '0.7rem', color: '#64748b', fontWeight: 600 }}>
                         {book.issn}

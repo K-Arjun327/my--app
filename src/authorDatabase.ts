@@ -32,7 +32,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Hamlet: Prince of Denmark",
         category: "Classic Literature",
-        price: 18.99,
+        price: 659,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141396507",
         description: "The definitive tragic masterpiece exploring revenge, mortality, deception, and the complexities of human consciousness.",
@@ -41,7 +41,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Macbeth: Tragedy of Ambition",
         category: "Classic Literature",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743477109",
         description: "A harrowing psychological exploration of unchecked political ambition, prophecy, guilt, and the supernatural.",
@@ -50,7 +50,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Romeo and Juliet",
         category: "Classic Romance",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743477116",
         description: "The legendary tale of two young star-crossed lovers in Renaissance Verona whose deaths ultimately reconcile their feuding families.",
@@ -59,7 +59,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Othello: The Moor of Venice",
         category: "Classic Literature",
-        price: 18.25,
+        price: 639,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743477550",
         description: "A powerful tragedy examining jealousy, racial identity, manipulation, and trust, orchestrated by the villainous Iago.",
@@ -68,7 +68,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "King Lear",
         category: "Classic Literature",
-        price: 19.00,
+        price: 669,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743482769",
         description: "An epic tragedy of an aging monarch who divides his kingdom among his three daughters based on flattery.",
@@ -77,7 +77,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Tempest",
         category: "Classic Literature",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743482837",
         description: "A magical romance set on a remote island where the sorcerer Prospero uses illusion to restore his daughter to her rightful place.",
@@ -86,7 +86,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "A Midsummer Night's Dream",
         category: "Comedy & Drama",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743477543",
         description: "A whimsical comedy featuring intertwining plots between four Athenian lovers, rustic actors, and forest fairies.",
@@ -95,7 +95,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Julius Caesar",
         category: "History & Tragedy",
-        price: 17.00,
+        price: 599,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743482745",
         description: "A gripping political drama depicting the 44 BC conspiracy against Roman dictator Julius Caesar and the aftermath.",
@@ -104,7 +104,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Twelfth Night: What You Will",
         category: "Comedy & Drama",
-        price: 15.50,
+        price: 539,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743482776",
         description: "A festive romantic comedy revolving around shipwrecked twins, mistaken identities, unrequited love, and merry trickery.",
@@ -113,7 +113,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Merchant of Venice",
         category: "Classic Literature",
-        price: 16.00,
+        price: 559,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743477567",
         description: "A dramatic examination of justice, mercy, commerce, and religious prejudice centered around the moneylender Shylock.",
@@ -122,7 +122,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Complete Sonnets",
         category: "Poetry Collection",
-        price: 22.00,
+        price: 769,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140424515",
         description: "All 154 poetic sonnets meditating on love, beauty, mortality, passage of time, and artistic immortality.",
@@ -143,7 +143,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "1984 (Nineteen Eighty-Four)",
         category: "Dystopian Fiction",
-        price: 19.99,
+        price: 699,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0451524935",
         description: "The chilling depiction of Oceania's totalitarian state under Big Brother, surveillance, doublethink, and thought police.",
@@ -152,7 +152,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Animal Farm: A Fairy Story",
         category: "Political Satire",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0451526342",
         description: "An allegorical novella reflecting events leading up to the Russian Revolution and the totalitarian Stalinist era.",
@@ -161,7 +161,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Homage to Catalonia",
         category: "Historical Memoir",
-        price: 18.50,
+        price: 649,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0156421171",
         description: "Orwell's firsthand personal account of fighting for the POUM militia during the Spanish Civil War.",
@@ -170,7 +170,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Down and Out in Paris and London",
         category: "Memoir & Social Study",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0156262248",
         description: "A gritty exposé of transient poverty and survival working in hotel kitchens and sleeping in London shelters.",
@@ -179,7 +179,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Road to Wigan Pier",
         category: "Sociology & Labor",
-        price: 17.95,
+        price: 629,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0156767507",
         description: "A sociological investigation into the bleak living conditions of working-class coal miners in northern England.",
@@ -188,7 +188,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Burmese Days",
         category: "Historical Fiction",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0156148504",
         description: "A stinging critique of British imperial rule drawn from Orwell's years in the Indian Imperial Police in Burma.",
@@ -197,7 +197,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Keep the Aspidistra Flying",
         category: "Social Fiction",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0156468992",
         description: "The story of Gordon Comstock's rebellion against the money-god and commercialism in 1930s London.",
@@ -206,7 +206,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Coming Up for Air",
         category: "Fiction & Nostalgia",
-        price: 16.25,
+        price: 569,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0156196253",
         description: "A pre-WWII novel capturing middle-class British dread and lost Edwardian childhood tranquility.",
@@ -215,7 +215,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Shooting an Elephant and Other Essays",
         category: "Essays & Journalism",
-        price: 14.99,
+        price: 519,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141187396",
         description: "Collected landmark essays examining colonial moral dilemmas, nationalism, censorship, and personal courage.",
@@ -224,7 +224,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Politics and the English Language",
         category: "Literary Criticism",
-        price: 12.99,
+        price: 449,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141397733",
         description: "Orwell's essential masterwork on clarity in political prose and the defense against deceitful jargon.",
@@ -245,7 +245,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Pride and Prejudice",
         category: "Classic Romance",
-        price: 18.99,
+        price: 659,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439518",
         description: "The timeless romantic drama between Elizabeth Bennet and Mr. Darcy exploring social class, first impressions, and love.",
@@ -254,7 +254,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Sense and Sensibility",
         category: "Classic Literature",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439662",
         description: "The contrasting journeys of the Dashwood sisters—Elinor and Marianne—balancing rational restraint with emotional passion.",
@@ -263,7 +263,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Emma: A Novel of Manners",
         category: "Classic Romance",
-        price: 18.00,
+        price: 629,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439587",
         description: "The witty story of handsome, clever, and rich Emma Woodhouse who loves matchmaking but misjudges her own heart.",
@@ -272,7 +272,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Persuasion",
         category: "Classic Romance",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439686",
         description: "Austen's poignant mature romance of second chances between Anne Elliot and Captain Frederick Wentworth.",
@@ -281,7 +281,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Mansfield Park",
         category: "Classic Literature",
-        price: 17.25,
+        price: 599,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439808",
         description: "Fanny Price's moral growth and steadfast integrity in the grand and complex household of her wealthy relatives.",
@@ -290,7 +290,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Northanger Abbey",
         category: "Gothic Satire",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439792",
         description: "A delightful parody of 18th-century gothic romances through the imaginative eyes of Catherine Morland.",
@@ -299,7 +299,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Lady Susan",
         category: "Epistolary Novella",
-        price: 13.99,
+        price: 489,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140437584",
         description: "An early epistolary novel depicting the clever, flirtatious, and self-seeking widow Lady Susan Vernon.",
@@ -308,7 +308,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Sanditon: The Seaside Resort",
         category: "Classic Literature",
-        price: 14.50,
+        price: 509,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0199535989",
         description: "Austen's final unfinished work chronicling the eccentric residents of an emerging seaside bathing resort.",
@@ -317,7 +317,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Watsons",
         category: "Classic Literature",
-        price: 12.99,
+        price: 449,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140439977",
         description: "An engaging novella fragment exploring marriage economics and female independence in provincial England.",
@@ -326,7 +326,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Love and Freindship & Other Youthful Writings",
         category: "Juvenilia & Parody",
-        price: 14.00,
+        price: 489,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140437607",
         description: "Austen's riotously funny juvenile spoofs of melodramatic sentimentality written between ages 11 and 17.",
@@ -347,7 +347,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Old Man and the Sea",
         category: "Nobel Masterpiece",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684801223",
         description: "The epic story of Santiago, an aging Cuban fisherman, locked in a ferocious battle with a giant marlin far out in the Gulf Stream.",
@@ -356,7 +356,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "A Farewell to Arms",
         category: "War & Romance",
-        price: 18.50,
+        price: 649,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1476764529",
         description: "A haunting romance between an American ambulance driver and a British nurse on the Italian front in World War I.",
@@ -365,7 +365,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "For Whom the Bell Tolls",
         category: "War Drama",
-        price: 19.99,
+        price: 699,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684803357",
         description: "Robert Jordan's perilous mission to blow up a strategic bridge behind fascist lines during the Spanish Civil War.",
@@ -374,7 +374,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Sun Also Rises",
         category: "Modernist Fiction",
-        price: 17.25,
+        price: 599,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743297332",
         description: "The iconic quintessential portrait of the Lost Generation traveling from Paris to the Running of the Bulls in Pamplona.",
@@ -383,7 +383,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "A Moveable Feast",
         category: "Memoir & Paris",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1439182710",
         description: "Hemingway's warm memoir of living as a young, struggling journalist and writer in 1920s bohemian Paris.",
@@ -392,7 +392,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Death in the Afternoon",
         category: "Non-Fiction & Culture",
-        price: 18.00,
+        price: 629,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684801452",
         description: "A treatise on the ceremony and bullfighting traditions of Spain, contemplating fear, bravery, and mortality.",
@@ -401,7 +401,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Green Hills of Africa",
         category: "Adventure & Safari",
-        price: 16.95,
+        price: 589,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684801483",
         description: "An authentic account of a month-long big-game safari in East Africa accompanied by his wife Pauline.",
@@ -410,7 +410,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Complete Short Stories of Ernest Hemingway",
         category: "Anthology",
-        price: 24.00,
+        price: 839,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684843322",
         description: "The definitive anthology including The Snows of Kilimanjaro, The Short Happy Life of Francis Macomber, and Hills Like White Elephants.",
@@ -419,7 +419,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "To Have and Have Not",
         category: "Crime & Adventure",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684818917",
         description: "Harry Morgan's desperate struggle to keep his fishing boat afloat through contraband smuggling between Key West and Havana.",
@@ -428,7 +428,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Islands in the Stream",
         category: "Posthumous Fiction",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684804545",
         description: "The rich, multi-part story of artist Thomas Hudson in the Caribbean during the quiet and war-torn phases of his life.",
@@ -449,7 +449,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "A Study in Scarlet",
         category: "Detective Mystery",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140439083",
         description: "The historic debut novel introducing Sherlock Holmes, Dr. Watson, 221B Baker Street, and the Science of Deduction.",
@@ -458,7 +458,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Hound of the Baskervilles",
         category: "Gothic Detective",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141440934",
         description: "Holmes investigates the terrifying legend of a spectral, demonic hound terrorizing the foggy moors of Devon.",
@@ -467,7 +467,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Sign of the Four",
         category: "Detective Mystery",
-        price: 15.50,
+        price: 539,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140439076",
         description: "A complex case involving stolen Agra treasure, secret pacts, poisoned darts, and Mary Morstan.",
@@ -476,7 +476,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Adventures of Sherlock Holmes",
         category: "Short Story Collection",
-        price: 18.00,
+        price: 629,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141034355",
         description: "Twelve classic tales including A Scandal in Bohemia, The Red-Headed League, and The Speckled Band.",
@@ -485,7 +485,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Memoirs of Sherlock Holmes",
         category: "Short Story Collection",
-        price: 17.00,
+        price: 599,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141034348",
         description: "Featuring Silver Blaze, The Musgrave Ritual, and Holmes's fateful clash with Moriarty in The Final Problem.",
@@ -494,7 +494,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Return of Sherlock Holmes",
         category: "Detective Mystery",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141034331",
         description: "Holmes returns triumphantly in The Adventure of the Empty House following the Great Hiatus.",
@@ -503,7 +503,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Valley of Fear",
         category: "Detective Mystery",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140439090",
         description: "A gripping murder mystery connected to Professor Moriarty and a secret society in an American coal mining valley.",
@@ -512,7 +512,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Lost World: Professor Challenger",
         category: "Sci-Fi & Adventure",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140624052",
         description: "Professor Challenger's legendary expedition to an isolated South American plateau where prehistoric dinosaurs survive.",
@@ -521,7 +521,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "His Last Bow: War Epilogue",
         category: "Detective & Espionage",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141034324",
         description: "Eight espionage and detective mysteries culminating in Holmes thwarting a German spy ring on the eve of WWI.",
@@ -530,7 +530,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Case-Book of Sherlock Holmes",
         category: "Short Story Collection",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141034317",
         description: "The final twelve investigations authored by Doyle including The Illustrious Client and The Lion's Mane.",
@@ -551,7 +551,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "And Then There Were None",
         category: "Mystery & Suspense",
-        price: 17.99,
+        price: 629,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073488",
         description: "Ten strangers invited to an isolated island mansion are eliminated one by one following a nursery rhyme.",
@@ -560,7 +560,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Murder on the Orient Express",
         category: "Hercule Poirot Mystery",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073495",
         description: "Hercule Poirot must solve the baffling murder of an American tycoon aboard a snowbound luxury train.",
@@ -569,7 +569,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Murder of Roger Ackroyd",
         category: "Hercule Poirot Mystery",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073563",
         description: "A genre-defining mystery featuring one of the most astonishing twist endings in detective literature history.",
@@ -578,7 +578,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Death on the Nile",
         category: "Hercule Poirot Mystery",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073556",
         description: "A glamorous holiday aboard an Egyptian river steamer turns deadly when an heiress is found shot.",
@@ -587,7 +587,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The ABC Murders",
         category: "Hercule Poirot Mystery",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073587",
         description: "A serial killer taunts Poirot with alphabetical letters before murdering victims across England.",
@@ -596,7 +596,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Mysterious Affair at Styles",
         category: "Debut Novel",
-        price: 14.99,
+        price: 519,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073532",
         description: "Christie's very first detective novel introducing Hercule Poirot, Captain Hastings, and Inspector Japp.",
@@ -605,7 +605,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "A Murder Is Announced: Miss Marple",
         category: "Miss Marple Mystery",
-        price: 16.00,
+        price: 559,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073662",
         description: "A notice in the village newspaper announces a murder will take place at 6:30 PM at Little Paddocks.",
@@ -614,7 +614,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Body in the Library",
         category: "Miss Marple Mystery",
-        price: 15.50,
+        price: 539,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073624",
         description: "Miss Marple untangles the murder of a dance hostess discovered in Colonel Bantry's library.",
@@ -623,7 +623,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Crooked House",
         category: "Standalone Mystery",
-        price: 16.25,
+        price: 569,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073501",
         description: "Christie's personal favorite work exploring poisonous family secrets inside a sprawling three-gabled mansion.",
@@ -632,7 +632,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Curtain: Poirot's Last Case",
         category: "Hercule Poirot Mystery",
-        price: 17.00,
+        price: 599,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062073860",
         description: "The dramatic final case where an aged Poirot returns to Styles to stop an insidious master manipulator.",
@@ -653,7 +653,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "War and Peace",
         category: "Epic Historical Novel",
-        price: 26.99,
+        price: 939,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1400079988",
         description: "The panoramic epic detailing five aristocratic Russian families through Napoleon's 1812 invasion.",
@@ -662,7 +662,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Anna Karenina",
         category: "Classic Literature",
-        price: 22.50,
+        price: 789,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0143035008",
         description: "A monumental tragedy of passionate love, adultery, social hypocrisy, and spiritual redemption in imperial Russia.",
@@ -671,7 +671,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Death of Ivan Ilyich",
         category: "Philosophical Novella",
-        price: 14.99,
+        price: 519,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0307951205",
         description: "A profound novella contemplating mortality, bourgeois shallowness, and the true meaning of a genuine life.",
@@ -680,7 +680,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Resurrection",
         category: "Social Novel",
-        price: 18.99,
+        price: 659,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0199540242",
         description: "Tolstoy's final major novel addressing judicial injustice, penal exile in Siberia, and moral rebirth.",
@@ -689,7 +689,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Childhood, Boyhood, Youth",
         category: "Autobiographical Trilogy",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140449921",
         description: "Semi-autobiographical trilogy tracing the emotional awakening and psychological growth of young Nikolenka.",
@@ -698,7 +698,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Hadji Murat",
         category: "Historical Novella",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0307951212",
         description: "The gripping tale of an Avar rebel leader navigating treacherous alliances during the Caucasian War.",
@@ -707,7 +707,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Kingdom of God Is Within You",
         category: "Philosophy & Pacifism",
-        price: 18.00,
+        price: 629,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0803294042",
         description: "Tolstoy's seminal treatise advocating nonviolent resistance, which deeply influenced Mahatma Gandhi and Martin Luther King Jr.",
@@ -716,7 +716,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Cossacks: A Tale of 1852",
         category: "Adventure & Realism",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140449594",
         description: "A disillusioned young nobleman joins the army in the Caucasus, discovering natural vigor and unadorned life.",
@@ -725,7 +725,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Kreutzer Sonata",
         category: "Psychological Novella",
-        price: 14.50,
+        price: 509,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140444582",
         description: "A provocative novella dissecting sexual jealousy, marital dysfunction, and Beethoven's music.",
@@ -734,7 +734,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "What Is Art? & Essays on Aesthetics",
         category: "Aesthetics & Essays",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140446425",
         description: "A passionate critique of elitist aesthetic theories, asserting art's duty is moral transmission of universal brotherhood.",
@@ -755,7 +755,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Crime and Punishment",
         category: "Psychological Masterpiece",
-        price: 21.99,
+        price: 769,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0143107637",
         description: "The intense psychological drama of impoverished student Raskolnikov who murders a pawnbroker and suffers spiritual torment.",
@@ -764,7 +764,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Brothers Karamazov",
         category: "Philosophical Epic",
-        price: 24.50,
+        price: 859,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0374528379",
         description: "A passionate philosophical inquiry into God, morality, and patricide centered around three very different brothers.",
@@ -773,7 +773,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Notes from Underground",
         category: "Existentialist Classic",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0679734529",
         description: "The alienated diary of a retired civil servant in St. Petersburg, considered the first existentialist novel.",
@@ -782,7 +782,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Idiot",
         category: "Classic Literature",
-        price: 20.00,
+        price: 699,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0375702242",
         description: "Prince Myshkin, a gentle, saintly man, enters corrupt St. Petersburg high society with tragic consequences.",
@@ -791,7 +791,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Demons (The Possessed)",
         category: "Political Masterpiece",
-        price: 22.00,
+        price: 769,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0679734512",
         description: "A prophetic political satire depicting revolutionary nihilism, radical conspiracies, and societal unraveling.",
@@ -800,7 +800,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The House of the Dead",
         category: "Semi-Autobiographical Memoir",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140444568",
         description: "A harrowing portrait of life in a Siberian prison camp based on Dostoevsky's own four years of penal servitude.",
@@ -809,7 +809,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Gambler",
         category: "Psychological Novella",
-        price: 14.99,
+        price: 519,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140447385",
         description: "An exhilarating study of gambling compulsion and romantic obsession in a German casino resort town.",
@@ -818,7 +818,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Poor Folk",
         category: "Epistolary Debut",
-        price: 13.99,
+        price: 489,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140445053",
         description: "Dostoevsky's breakthrough debut novella written in letters between a copyist clerk and a sewing girl.",
@@ -827,7 +827,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "White Nights: A Sentimental Story",
         category: "Romantic Novella",
-        price: 12.99,
+        price: 449,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141441405",
         description: "A delicate, bittersweet romance occurring across four luminous midsummer nights in St. Petersburg.",
@@ -836,7 +836,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Double: A Petersburg Poem",
         category: "Psychological Novella",
-        price: 14.50,
+        price: 509,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140447385",
         description: "A bureaucrat encounters his exact doppelgänger who proceeds to take over his career, friends, and sanity.",
@@ -857,7 +857,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Great Expectations",
         category: "Victorian Classic",
-        price: 18.50,
+        price: 649,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439563",
         description: "The coming-of-age journey of the orphan Pip, the eccentric Miss Havisham, Estella, and the convict Magwitch.",
@@ -866,7 +866,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "A Tale of Two Cities",
         category: "Historical Classic",
-        price: 17.99,
+        price: 629,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439600",
         description: "The stirring historical epic set in London and Paris during the bloody turmoil of the French Revolution.",
@@ -875,7 +875,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Oliver Twist: The Parish Boy's Progress",
         category: "Social Realism",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439747",
         description: "An orphan boy escapes a workhouse and falls in with Fagin's gang of juvenile pickpockets in London.",
@@ -884,7 +884,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "A Christmas Carol in Prose",
         category: "Holiday Classic",
-        price: 14.50,
+        price: 509,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141393001",
         description: "The classic transformation of Ebenezer Scrooge through visits from the ghosts of Christmas Past, Present, and Yet to Come.",
@@ -893,7 +893,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "David Copperfield",
         category: "Victorian Classic",
-        price: 21.00,
+        price: 739,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439440",
         description: "Dickens's personal favorite novel, following David Copperfield from unhappy childhood to prosperous author.",
@@ -902,7 +902,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Bleak House",
         category: "Satire & Mystery",
-        price: 22.50,
+        price: 789,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439723",
         description: "A monumental satire on the Court of Chancery legal gridlock interwoven with a murder mystery.",
@@ -911,7 +911,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Hard Times: For These Times",
         category: "Industrial Fiction",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141439679",
         description: "A critique of industrial utilitarianism and harsh factory conditions in the fictional town of Coketown.",
@@ -920,7 +920,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Pickwick Papers",
         category: "Comic Picaresque",
-        price: 19.50,
+        price: 679,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140436112",
         description: "Dickens's first published novel recounting the humorous misadventures of Samuel Pickwick and club members.",
@@ -929,7 +929,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Our Mutual Friend",
         category: "Victorian Masterpiece",
-        price: 23.00,
+        price: 809,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140434972",
         description: "A dark, intricate panorama of London society revolving around a fortune derived from city dust mounds.",
@@ -938,7 +938,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Nicholas Nickleby",
         category: "Victorian Classic",
-        price: 20.00,
+        price: 699,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140435122",
         description: "Nicholas Nickleby fights to support his mother and sister after his father's death, exposing abusive Yorkshire boarding schools.",
@@ -959,7 +959,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Shining",
         category: "Psychological Horror",
-        price: 19.99,
+        price: 699,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0307743657",
         description: "Jack Torrance takes a winter caretaker job at the isolated Overlook Hotel, where supernatural forces unravel his sanity.",
@@ -968,7 +968,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "IT",
         category: "Supernatural Horror",
-        price: 24.99,
+        price: 869,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1501142970",
         description: "Seven children in Derry, Maine battle a shape-shifting entity that takes the form of Pennywise the Dancing Clown.",
@@ -977,7 +977,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Misery",
         category: "Psychological Thriller",
-        price: 18.50,
+        price: 649,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1501143106",
         description: "Novelist Paul Sheldon crashes his car in a blizzard and is rescued by his obsessed 'number one fan' Annie Wilkes.",
@@ -986,7 +986,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Stand",
         category: "Apocalyptic Epic",
-        price: 25.00,
+        price: 879,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0307743688",
         description: "A weaponized influenza strain annihilates 99% of mankind, sparking an epic battle between good and evil.",
@@ -995,7 +995,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Carrie",
         category: "Supernatural Debut",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0307743664",
         description: "King's breakthrough debut novel about an outcast high school girl with telekinetic powers pushed past her limit at prom.",
@@ -1004,7 +1004,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Pet Sematary",
         category: "Supernatural Horror",
-        price: 18.00,
+        price: 629,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1501156700",
         description: "A doctor discovers an ancient burial ground deep in the Maine woods that brings back dead pets—and people—terrifyingly changed.",
@@ -1013,7 +1013,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "11/22/63",
         category: "Time Travel & Thriller",
-        price: 22.95,
+        price: 799,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1451627299",
         description: "A high school teacher discovers a portal to 1958 and embarks on a mission to prevent the assassination of JFK.",
@@ -1022,7 +1022,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Green Mile: The Complete Serial Novel",
         category: "Magical Realism",
-        price: 19.50,
+        price: 679,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1501160417",
         description: "Death row corrections officer Paul Edgecomb encounters John Coffey, an inmate possessing miraculous healing abilities.",
@@ -1031,7 +1031,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Salem's Lot",
         category: "Vampire Horror",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0307743671",
         description: "A writer returns to his hometown of Jerusalem's Lot only to discover the residents are turning into vampires.",
@@ -1040,7 +1040,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Different Seasons (Shawshank & The Body)",
         category: "Novella Collection",
-        price: 18.99,
+        price: 659,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1501143489",
         description: "Four non-horror master novellas including Rita Hayworth and Shawshank Redemption, Apt Pupil, and The Body (Stand By Me).",
@@ -1061,7 +1061,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Cosmos: A Personal Voyage",
         category: "Astrophysics & Astronomy",
-        price: 28.00,
+        price: 979,
         image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345331359",
         description: "Carl Sagan's iconic exploration of space, human civilization, science, and the universe.",
@@ -1070,7 +1070,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Pale Blue Dot: A Vision of the Human Future in Space",
         category: "Astronomy & Space",
-        price: 24.50,
+        price: 859,
         image: "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345376596",
         description: "A stirring vision of humanity's future among the stars, inspired by the Voyager 1 photograph of Earth.",
@@ -1079,7 +1079,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Demon-Haunted World: Science as a Candle in the Dark",
         category: "Science & Skepticism",
-        price: 22.00,
+        price: 769,
         image: "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345409461",
         description: "Sagan's essential manifesto on critical thinking, scientific skepticism, and debunking superstition.",
@@ -1088,7 +1088,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Contact: A Novel",
         category: "Sci-Fi & Astronomy",
-        price: 18.99,
+        price: 659,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0671004101",
         description: "SETI scientist Dr. Ellie Arroway detects a radio message from the star Vega transmitting plans for a mysterious machine.",
@@ -1097,7 +1097,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Dragons of Eden: Speculations on Human Intelligence",
         category: "Evolutionary Biology",
-        price: 19.50,
+        price: 679,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345346292",
         description: "Pulitzer Prize-winning inquiry exploring human brain evolution, intelligence, sleep, and prehistoric memory.",
@@ -1106,7 +1106,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Broca's Brain: Reflections on the Romance of Science",
         category: "Science Essays",
-        price: 17.99,
+        price: 629,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345336897",
         description: "Thought-provoking essays on cutting-edge astronomy, human origins, and the borders of scientific understanding.",
@@ -1115,7 +1115,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Shadows of Forgotten Ancestors",
         category: "Anthropology & Evolution",
-        price: 21.00,
+        price: 739,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345345950",
         description: "Co-authored with Ann Druyan, tracing the biological and behavioral origins of the human primate species.",
@@ -1124,7 +1124,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Billions and Billions: Thoughts on Life and Death",
         category: "Science & Philosophy",
-        price: 19.00,
+        price: 669,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345379184",
         description: "Sagan's final book touching on planetary climate, nuclear disarmament, technology, and his personal battle with myelodysplasia.",
@@ -1133,7 +1133,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Cosmic Connection: An Extraterrestrial Perspective",
         category: "Astrobiology",
-        price: 18.00,
+        price: 629,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0521783033",
         description: "A foundational work examining extraterrestrial communication, interstellar space probes, and cosmic perspectives.",
@@ -1142,7 +1142,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Comet: Celestial Visitors",
         category: "Planetary Science",
-        price: 20.50,
+        price: 719,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345412225",
         description: "The scientific exploration of comets, their role in delivering organic chemistry to early Earth, and cosmic collisions.",
@@ -1163,7 +1163,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Sapiens: A Brief History of Humankind",
         category: "History & Anthropology",
-        price: 26.99,
+        price: 939,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062316097",
         description: "A groundbreaking journey through human history from ancient foraging hominids to modern technological society.",
@@ -1172,7 +1172,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Homo Deus: A Brief History of Tomorrow",
         category: "Futurism & Philosophy",
-        price: 27.50,
+        price: 959,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0062464316",
         description: "Investigating the future of humanity, artificial intelligence, biotechnology, and the quest for divinity.",
@@ -1181,7 +1181,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "21 Lessons for the 21st Century",
         category: "Current Affairs & Tech",
-        price: 24.00,
+        price: 839,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0525512172",
         description: "How to maintain focus and resilience in an age of disinformation, algorithms, and rapid climate transformation.",
@@ -1190,7 +1190,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Nexus: A Brief History of Information Networks",
         category: "Information Science",
-        price: 29.99,
+        price: 1049,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0593734223",
         description: "Harari's latest exploration into how information networks from ancient scriptures to AI algorithms shape our reality.",
@@ -1199,7 +1199,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Sapiens: A Graphic History Vol. 1 (The Birth of Humankind)",
         category: "Graphic History",
-        price: 25.00,
+        price: 879,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0063051331",
         description: "A radical illustrated adaptation bringing the Cognitive Revolution to life through rich graphic storytelling.",
@@ -1208,7 +1208,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Sapiens: A Graphic History Vol. 2 (The Pillars of Civilization)",
         category: "Graphic History",
-        price: 25.00,
+        price: 879,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0063051355",
         description: "The illustrated chronicle of the Agricultural Revolution and the rise of cities, money, and empires.",
@@ -1217,7 +1217,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Unstoppable Us, Volume 1: How Humans Took Over the World",
         category: "Youth Non-Fiction",
-        price: 19.99,
+        price: 699,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0593643464",
         description: "The exciting history of how human beings became the most powerful creatures on Earth, written for younger readers.",
@@ -1226,7 +1226,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Special Operations in the Age of Chivalry",
         category: "Military History",
-        price: 32.00,
+        price: 1119,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0851159140",
         description: "Academic historical analysis of medieval covert operations, assassinations, and special military missions.",
@@ -1235,7 +1235,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Ultimate Experience: Battlefield Revelations 1450-2000",
         category: "Military Philosophy",
-        price: 34.50,
+        price: 1209,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0230583887",
         description: "Investigating how soldiers across 500 years of combat interpreted war as an enlightening personal experience.",
@@ -1244,7 +1244,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Renaissance Military Memoirs: War, History and Identity",
         category: "Academic History",
-        price: 35.00,
+        price: 1229,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0851159973",
         description: "A scholarly deep dive into the emergence of personal autobiography and military identity in 16th-century Europe.",
@@ -1265,7 +1265,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Great Gatsby",
         category: "American Classic",
-        price: 17.99,
+        price: 629,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743273565",
         description: "The definitive masterpiece of the Roaring Twenties, chronicling Jay Gatsby's obsessive pursuit of Daisy Buchanan in Long Island.",
@@ -1274,7 +1274,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Tender Is the Night",
         category: "Classic Literature",
-        price: 18.50,
+        price: 649,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684801544",
         description: "The glamorous and tragic unraveling of psychiatrist Dick Diver and his wealthy wife Nicole on the French Riviera.",
@@ -1283,7 +1283,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "This Side of Paradise",
         category: "Debut Novel",
-        price: 16.00,
+        price: 559,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0486289991",
         description: "Fitzgerald's dazzling debut novel that defined post-WWI youth, intellectual disillusionment, and collegiate romance at Princeton.",
@@ -1292,7 +1292,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Beautiful and Damned",
         category: "Jazz Age Fiction",
-        price: 16.99,
+        price: 589,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0486421971",
         description: "The decadent marriage and squandered inheritance of Anthony and Gloria Patch in 1910s Manhattan.",
@@ -1301,7 +1301,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Curious Case of Benjamin Button",
         category: "Fantasy Novella",
-        price: 14.50,
+        price: 509,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0141190228",
         description: "The whimsical story of a man born in his seventies who ages backwards throughout his life.",
@@ -1310,7 +1310,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Tales of the Jazz Age",
         category: "Short Story Collection",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0486424491",
         description: "Eleven classic stories including The Diamond as Big as the Ritz and May Day.",
@@ -1319,7 +1319,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Last Tycoon (The Love of the Last Tycoon)",
         category: "Hollywood Fiction",
-        price: 17.00,
+        price: 599,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684801551",
         description: "Fitzgerald's posthumous final novel depicting studio head Monroe Stahr navigating the Golden Age of Hollywood.",
@@ -1328,7 +1328,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Flappers and Philosophers",
         category: "Short Story Anthology",
-        price: 15.50,
+        price: 539,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0486414164",
         description: "Fitzgerald's first story collection featuring Bernice Bobs Her Hair and The Ice Palace.",
@@ -1337,7 +1337,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "All the Sad Young Men",
         category: "Short Story Anthology",
-        price: 16.00,
+        price: 559,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0486834412",
         description: "Nine mature stories composed during the writing of Gatsby, including The Rich Boy and Winter Dreams.",
@@ -1346,7 +1346,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Babylon Revisited and Other Stories",
         category: "Short Story Anthology",
-        price: 15.99,
+        price: 559,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684824987",
         description: "Moving stories of post-1929 stock market crash regret, fatherhood, and moral reckoning.",
@@ -1367,7 +1367,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "On the Origin of Species",
         category: "Evolutionary Biology",
-        price: 24.99,
+        price: 869,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0451529060",
         description: "The seminal foundational text of evolutionary biology introducing natural selection and diversity of life.",
@@ -1376,7 +1376,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Voyage of the Beagle",
         category: "Expedition & Nature",
-        price: 21.50,
+        price: 749,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140432688",
         description: "Darwin's fascinating personal travel journal aboard HMS Beagle across South America and the Galápagos Islands.",
@@ -1385,7 +1385,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Descent of Man, and Selection in Relation to Sex",
         category: "Anthropology & Evolution",
-        price: 23.00,
+        price: 809,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0140436310",
         description: "Applying evolutionary theory to human beings, detailing human origins and sexual selection across species.",
@@ -1394,7 +1394,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Expression of the Emotions in Man and Animals",
         category: "Psychology & Ethology",
-        price: 22.00,
+        price: 769,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0195112719",
         description: "Pioneering photographic study of biological basis and universal nature of facial and emotional expressions.",
@@ -1403,7 +1403,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Structure and Distribution of Coral Reefs",
         category: "Geology & Oceanography",
-        price: 20.00,
+        price: 699,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0520032811",
         description: "Darwin's brilliant scientific theory explaining the gradual subsidence and formation of coral atolls.",
@@ -1412,7 +1412,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Insectivorous Plants",
         category: "Botanical Science",
-        price: 19.50,
+        price: 679,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0801487842",
         description: "Detailed botanical experiments on Venus flytraps, sundews, and carnivorous plant adaptations.",
@@ -1421,7 +1421,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Power of Movement in Plants",
         category: "Botany & Biology",
-        price: 19.00,
+        price: 669,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0801487859",
         description: "Investigating phototropism, root sensitivity, and circular plant movements (circumnutation).",
@@ -1430,7 +1430,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Formation of Vegetable Mould Through Earthworms",
         category: "Ecology & Soil",
-        price: 17.50,
+        price: 609,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0226136608",
         description: "Darwin's bestselling final book examining earthworm activity and their profound geological impact on soil.",
@@ -1439,7 +1439,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Geological Observations on South America",
         category: "Geological History",
-        price: 21.00,
+        price: 739,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1406801965",
         description: "Geological field surveys on the Andes mountain uplift, earthquake fault lines, and fossil beds.",
@@ -1448,7 +1448,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Different Forms of Flowers on Plants of the Same Species",
         category: "Botanical Genetics",
-        price: 18.50,
+        price: 649,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0226136653",
         description: "Groundbreaking discoveries on heterostyly, cross-pollination benefits, and botanical reproduction.",
@@ -1469,7 +1469,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "A Brief History of Time",
         category: "Quantum & Cosmology",
-        price: 24.99,
+        price: 869,
         image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0553380163",
         description: "The international record-breaking bestseller explaining the Big Bang, black holes, light cones, and the arrow of time.",
@@ -1478,7 +1478,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Universe in a Nutshell",
         category: "Theoretical Physics",
-        price: 26.00,
+        price: 909,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0553802023",
         description: "A lavishly illustrated guide into supergravity, 11-dimensional M-theory, quantum holographic membranes, and time travel.",
@@ -1487,7 +1487,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Grand Design",
         category: "Quantum Physics",
-        price: 22.50,
+        price: 789,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0553384666",
         description: "Co-authored with Leonard Mlodinow, arguing that quantum M-theory can explain the spontaneous creation of the multiverse.",
@@ -1496,7 +1496,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Brief Answers to the Big Questions",
         category: "Cosmology & Philosophy",
-        price: 21.00,
+        price: 739,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1984819192",
         description: "Hawking's final parting thoughts on AI threats, space colonization, extraterrestrial life, and human destiny.",
@@ -1505,7 +1505,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Black Holes and Baby Universes and Other Essays",
         category: "Essays & Physics",
-        price: 18.99,
+        price: 659,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0553374117",
         description: "Personal essays reflecting on living with ALS, the philosophy of science, thermodynamics, and black hole entropy.",
@@ -1514,7 +1514,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Nature of Space and Time",
         category: "Academic Physics",
-        price: 23.50,
+        price: 819,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0691145709",
         description: "The famous historic debate between Stephen Hawking and Sir Roger Penrose on quantum gravity and general relativity.",
@@ -1523,7 +1523,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Large Scale Structure of Space-Time",
         category: "Monograph & Physics",
-        price: 45.00,
+        price: 1579,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0521099066",
         description: "The advanced mathematical treatise co-written with G.F.R. Ellis proving cosmological singularity theorems.",
@@ -1532,7 +1532,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "George's Secret Key to the Universe",
         category: "Science Fiction & Youth",
-        price: 16.50,
+        price: 579,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1416985846",
         description: "Children's science adventure written with his daughter Lucy Hawking, exploring space via a supercomputer portal.",
@@ -1541,7 +1541,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "On the Shoulders of Giants: The Great Works of Physics",
         category: "Physics Anthology",
-        price: 29.99,
+        price: 1049,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0762416981",
         description: "Hawking's curated collection of landmark texts by Copernicus, Galileo, Kepler, Newton, and Einstein.",
@@ -1550,7 +1550,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "My Brief History: A Memoir",
         category: "Autobiography",
-        price: 17.00,
+        price: 599,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0345535283",
         description: "Hawking's concise, candid autobiographical account of his boyhood in Oxford and Cambridge intellectual triumphs.",
@@ -1571,7 +1571,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Steve Jobs: The Exclusive Biography",
         category: "Technology & Biography",
-        price: 27.99,
+        price: 979,
         image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1451648539",
         description: "Based on more than forty interviews with Jobs conducted over two years, the definitive biography of Apple's visionary founder.",
@@ -1580,7 +1580,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Leonardo da Vinci: The Renaissance Genius",
         category: "Art & Biography",
-        price: 28.50,
+        price: 999,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1501139154",
         description: "Bringing Leonardo da Vinci to life based on thousands of pages from his notebooks and new discoveries about his art and science.",
@@ -1589,7 +1589,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Einstein: His Life and Universe",
         category: "Science & Biography",
-        price: 26.00,
+        price: 909,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743264730",
         description: "The definitive biography examining how Einstein's rebellious scientific mind unraveled relativity, light, and gravity.",
@@ -1598,7 +1598,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Benjamin Franklin: An American Life",
         category: "History & Biography",
-        price: 24.00,
+        price: 839,
         image: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0684807614",
         description: "The colorful chronicle of the founding father whose wit, diplomacy, and inventions defined American character.",
@@ -1607,7 +1607,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Innovators: How a Group of Hackers Changed the World",
         category: "Computing & History",
-        price: 25.50,
+        price: 889,
         image: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1476708690",
         description: "The saga of the pioneers who created the computer and internet—from Ada Lovelace and Alan Turing to Bill Gates and Larry Page.",
@@ -1616,7 +1616,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Code Breaker: Jennifer Doudna and Gene Editing",
         category: "Biotechnology & Science",
-        price: 26.95,
+        price: 939,
         image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1982115852",
         description: "The story of Nobel Prize winner Jennifer Doudna and CRISPR gene editing transforming medicine and human evolution.",
@@ -1625,7 +1625,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Elon Musk: The Biography",
         category: "Technology & Business",
-        price: 29.99,
+        price: 1049,
         image: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1982181284",
         description: "The inside story of the polarizing innovator who propelled electric vehicles with Tesla, space flight with SpaceX, and AI.",
@@ -1634,7 +1634,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "Kissinger: A Biography",
         category: "Diplomacy & Politics",
-        price: 28.00,
+        price: 979,
         image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-0743286978",
         description: "A monumental study of foreign policy, geopolitics, and Henry Kissinger's complex diplomatic legacy.",
@@ -1643,7 +1643,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "The Wise Men: Six Friends and the World They Made",
         category: "Cold War History",
-        price: 27.00,
+        price: 949,
         image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1476728827",
         description: "Co-authored with Evan Thomas, profiling the architects of American post-WWII foreign policy and the Marshall Plan.",
@@ -1652,7 +1652,7 @@ export const authorDatabase: Record<string, AuthorProfile> = {
       {
         title: "American Sketches: Great Leaders and Creative Minds",
         category: "Essays & Profiles",
-        price: 19.99,
+        price: 699,
         image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=600&q=80",
         issn: "ISBN 978-1439183441",
         description: "Collected biographical essays on Ronald Reagan, Bill Gates, Colin Powell, Katharine Graham, and Woody Allen.",
