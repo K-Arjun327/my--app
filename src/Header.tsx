@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate, NavLink } from 'react-router-dom';
 import AuthorAvatar from './AuthorAvatar';
@@ -409,4 +410,10 @@ export default function Header() {
       </div>
     </div>
   );
+=======
+export default function Header(){
+    return(
+        <h1>This is Header</h1>
+    )
+>>>>>>> 3c30101c982eb8e08339e9038975c1035985d511
 }
