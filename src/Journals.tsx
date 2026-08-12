@@ -576,15 +576,31 @@ export default function Journals() {
               </div>
 
               <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-                <span style={{ fontSize: '0.75rem', color: '#047857', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                <span style={{ fontSize: '0.75rem', color: '#047857', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em', height: '18px', overflow: 'hidden' }}>
                   {journal.category} • {journal.issn}
                 </span>
-                <h3 style={{ fontSize: '1.05rem', fontWeight: 800, margin: '6px 0', lineHeight: 1.35, color: '#0c2b1c' }}>
+                <h3
+                  style={{
+                    fontSize: '1.05rem',
+                    fontWeight: 800,
+                    margin: '6px 0',
+                    lineHeight: 1.35,
+                    color: '#0c2b1c',
+                    height: '46px',
+                    minHeight: '46px',
+                    maxHeight: '46px',
+                    display: '-webkit-box',
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: 'vertical',
+                    overflow: 'hidden'
+                  }}
+                  title={journal.title}
+                >
                   {journal.title}
                 </h3>
                 <div
                   className="author-byline"
-                  style={{ marginBottom: '10px' }}
+                  style={{ height: '32px', display: 'inline-flex', alignItems: 'center', marginBottom: '12px' }}
                   onClick={() => navigate(`/author/${encodeURIComponent(journal.author)}`)}
                 >
                   <AuthorAvatar name={journal.author} size={24} />
@@ -593,34 +609,42 @@ export default function Journals() {
                   </span>
                 </div>
 
-                <div style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.85rem', color: '#d97706', marginBottom: '12px' }}>
-                  <span style={{ fontWeight: 800 }}>★ {journal.rating}</span>
-                  <span style={{ color: '#0a3d24', fontWeight: 600 }}>({journal.reviewsCount} reviews)</span>
-                  <span style={{ marginLeft: 'auto', color: '#047857', fontSize: '0.75rem', fontWeight: 800 }}>{journal.stockStatus}</span>
-                </div>
+                <div style={{ marginTop: 'auto', paddingTop: '8px' }}>
+                  {/* Rating & Stock Details at the Bottom of Book Details */}
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '0.825rem', marginBottom: '10px', background: '#f0fdf4', padding: '6px 10px', borderRadius: '8px', border: '1px solid #bbf7d0' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '5px', color: '#d97706', fontWeight: 800 }}>
+                      <span>★ {journal.rating}</span>
+                      <span style={{ color: '#047857', fontWeight: 600, fontSize: '0.75rem' }}>({journal.reviewsCount} reviews)</span>
+                    </div>
+                    <span style={{ color: '#047857', fontSize: '0.75rem', fontWeight: 800, display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                      <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
+                      {journal.stockStatus || 'In Stock'}
+                    </span>
+                  </div>
 
-                <div style={{ marginTop: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '10px', borderTop: '1px solid #cbe6d7' }}>
-                  <span style={{ fontSize: '1.35rem', fontWeight: 800, color: '#0c2b1c' }}>
-                    ₹{journal.price.toLocaleString('en-IN')}
-                  </span>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '8px', borderTop: '1px solid #cbe6d7' }}>
+                    <span style={{ fontSize: '1.35rem', fontWeight: 800, color: '#0c2b1c' }}>
+                      ₹{journal.price.toLocaleString('en-IN')}
+                    </span>
 
-                  <div style={{ display: 'flex', gap: '5px' }}>
-                    <button
-                      type="button"
-                      className="action-btn-secondary"
-                      style={{ padding: '8px 12px', fontSize: '0.8rem', background: '#ffffff', borderColor: '#cbe6d7' }}
-                      onClick={() => setSelectedBookModal(journal)}
-                    >
-                      Details
-                    </button>
-                    <button
-                      type="button"
-                      className="action-btn-primary"
-                      style={{ padding: '8px 14px', fontSize: '0.8rem' }}
-                      onClick={() => addToCart(journal)}
-                    >
-                      Order Copy
-                    </button>
+                    <div style={{ display: 'flex', gap: '5px' }}>
+                      <button
+                        type="button"
+                        className="action-btn-secondary"
+                        style={{ padding: '8px 12px', fontSize: '0.8rem', background: '#ffffff', borderColor: '#cbe6d7' }}
+                        onClick={() => setSelectedBookModal(journal)}
+                      >
+                        Details
+                      </button>
+                      <button
+                        type="button"
+                        className="action-btn-primary"
+                        style={{ padding: '8px 14px', fontSize: '0.8rem' }}
+                        onClick={() => addToCart(journal)}
+                      >
+                        Order Copy
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

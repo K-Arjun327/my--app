@@ -122,48 +122,86 @@ export default function AuthorDetail() {
                 </div>
 
                 <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
-                    <span style={{ fontSize: '0.75rem', color: '#047857', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                      {book.category}
-                    </span>
-                    <span style={{ fontSize: '0.75rem', color: '#d97706', fontWeight: 800 }}>
-                      ★ {book.rating}
-                    </span>
-                  </div>
+                  <span style={{ fontSize: '0.75rem', color: '#047857', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em', height: '18px', overflow: 'hidden', marginBottom: '4px' }}>
+                    {book.category}
+                  </span>
 
-                  <h3 style={{ fontSize: '1.05rem', fontWeight: 800, margin: '4px 0 6px 0', lineHeight: 1.35, color: '#0c2b1c' }}>
+                  <h3
+                    style={{
+                      fontSize: '1.05rem',
+                      fontWeight: 800,
+                      margin: '2px 0 6px 0',
+                      lineHeight: 1.35,
+                      color: '#0c2b1c',
+                      height: '46px',
+                      minHeight: '46px',
+                      maxHeight: '46px',
+                      display: '-webkit-box',
+                      WebkitLineClamp: 2,
+                      WebkitBoxOrient: 'vertical',
+                      overflow: 'hidden'
+                    }}
+                    title={book.title}
+                  >
                     {book.title}
                   </h3>
 
-                  <div className="author-byline" style={{ marginBottom: '8px' }}>
+                  <div className="author-byline" style={{ height: '32px', display: 'inline-flex', alignItems: 'center', marginBottom: '8px' }}>
                     <AuthorAvatar name={currentAuthor.name} size={20} animate={false} />
                     <span style={{ fontSize: '0.8rem', color: '#047857', fontWeight: 700 }}>
                       {currentAuthor.name}
                     </span>
                   </div>
 
-                  <p style={{ fontSize: '0.825rem', color: '#0a3d24', fontWeight: 600, margin: '0 0 12px 0', lineHeight: 1.45 }}>
+                  <p
+                    style={{
+                      fontSize: '0.825rem',
+                      color: '#0a3d24',
+                      fontWeight: 600,
+                      margin: '0 0 10px 0',
+                      lineHeight: 1.45,
+                      height: '40px',
+                      minHeight: '40px',
+                      maxHeight: '40px',
+                      display: '-webkit-box',
+                      WebkitLineClamp: 2,
+                      WebkitBoxOrient: 'vertical',
+                      overflow: 'hidden'
+                    }}
+                    title={book.description}
+                  >
                     {book.description}
                   </p>
 
-                  <div style={{ marginTop: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '10px', borderTop: '1px solid #cbe6d7' }}>
-                    <div>
-                      <span style={{ fontSize: '1.3rem', fontWeight: 800, color: '#0c2b1c', display: 'block' }}>
-                        ₹{book.price.toLocaleString('en-IN')}
-                      </span>
-                      <span style={{ fontSize: '0.7rem', color: '#64748b', fontWeight: 600 }}>
-                        {book.issn}
+                  {/* Rating and Stock Details at the Bottom of Book Details */}
+                  <div style={{ marginTop: 'auto', paddingTop: '6px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '0.825rem', marginBottom: '10px', background: '#f0fdf4', padding: '6px 10px', borderRadius: '8px', border: '1px solid #bbf7d0' }}>
+                      <span style={{ color: '#d97706', fontWeight: 800 }}>★ {book.rating}</span>
+                      <span style={{ color: '#047857', fontSize: '0.75rem', fontWeight: 800, display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                        <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#10b981', display: 'inline-block' }}></span>
+                        In Stock
                       </span>
                     </div>
 
-                    <button
-                      type="button"
-                      className="action-btn-primary"
-                      style={{ padding: '8px 16px', fontSize: '0.825rem' }}
-                      onClick={() => navigate('/journals')}
-                    >
-                      Order Copy
-                    </button>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '8px', borderTop: '1px solid #cbe6d7' }}>
+                      <div>
+                        <span style={{ fontSize: '1.3rem', fontWeight: 800, color: '#0c2b1c', display: 'block' }}>
+                          ₹{book.price.toLocaleString('en-IN')}
+                        </span>
+                        <span style={{ fontSize: '0.7rem', color: '#64748b', fontWeight: 600 }}>
+                          {book.issn}
+                        </span>
+                      </div>
+
+                      <button
+                        type="button"
+                        className="action-btn-primary"
+                        style={{ padding: '8px 16px', fontSize: '0.825rem' }}
+                        onClick={() => navigate('/journals')}
+                      >
+                        Order Copy
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
