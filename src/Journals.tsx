@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import AuthorAvatar from './AuthorAvatar';
 import './Home.css';
 
 interface JournalBook {
@@ -43,6 +44,7 @@ export default function Journals() {
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
+  const [trackingId, setTrackingId] = useState('BM-849201');
   const [selectedBookModal, setSelectedBookModal] = useState<JournalBook | null>(null);
 
   const sampleJournals: JournalBook[] = [
@@ -497,6 +499,7 @@ export default function Journals() {
 
   const handleCompleteOrder = (e: React.FormEvent) => {
     e.preventDefault();
+    setTrackingId(`BM-${Math.floor(100000 + Math.random() * 900000)}`);
     setOrderComplete(true);
     setTimeout(() => {
       setCart([]);
@@ -570,9 +573,6 @@ export default function Journals() {
                   alt={journal.title}
                   style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s ease' }}
                 />
-                <span className="live-pill" style={{ position: 'absolute', top: '10px', right: '10px', background: 'rgba(255, 255, 255, 0.95)', color: '#047857', fontWeight: 800, backdropFilter: 'blur(8px)', borderColor: '#cbe6d7', padding: '4px 10px', fontSize: '0.725rem' }}>
-                  {journal.badge}
-                </span>
               </div>
 
               <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
@@ -582,12 +582,16 @@ export default function Journals() {
                 <h3 style={{ fontSize: '1.05rem', fontWeight: 800, margin: '6px 0', lineHeight: 1.35, color: '#0c2b1c' }}>
                   {journal.title}
                 </h3>
-                <p
-                  style={{ fontSize: '0.85rem', color: '#047857', fontWeight: 700, margin: '0 0 10px 0', cursor: 'pointer', textDecoration: 'underline' }}
+                <div
+                  className="author-byline"
+                  style={{ marginBottom: '10px' }}
                   onClick={() => navigate(`/author/${encodeURIComponent(journal.author)}`)}
                 >
-                  By {journal.author} →
-                </p>
+                  <AuthorAvatar name={journal.author} size={24} />
+                  <span className="author-name-text" style={{ fontSize: '0.85rem', color: '#047857', fontWeight: 700, textDecoration: 'underline' }}>
+                    By {journal.author} →
+                  </span>
+                </div>
 
                 <div style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.85rem', color: '#d97706', marginBottom: '12px' }}>
                   <span style={{ fontWeight: 800 }}>★ {journal.rating}</span>
@@ -700,7 +704,7 @@ export default function Journals() {
               <div style={{ textAlign: 'center', padding: '1.5rem 0' }}>
                 <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎉</div>
                 <h2 style={{ fontSize: '1.5rem', fontWeight: 700, margin: '0 0 8px 0', color: '#059669' }}>Order Successfully Placed!</h2>
-                <p style={{ color: '#64748b', fontSize: '0.9rem' }}>Tracking ID: <strong>#LUM-{Math.floor(100000 + Math.random() * 900000)}</strong></p>
+                <p style={{ color: '#64748b', fontSize: '0.9rem' }}>Tracking ID: <strong>#{trackingId}</strong></p>
                 <p style={{ color: '#94a3b8', fontSize: '0.85rem' }}>A confirmation email with shipping timeline has been sent.</p>
               </div>
             )}
@@ -716,7 +720,20 @@ export default function Journals() {
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
               <span style={{ fontSize: '0.8rem', color: '#d97706', fontWeight: 700 }}>{selectedBookModal.category} • {selectedBookModal.issn}</span>
               <h2 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0', color: '#0f172a' }}>{selectedBookModal.title}</h2>
-              <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0 0 12px 0' }}>By {selectedBookModal.author}</p>
+              <div
+                className="author-byline"
+                style={{ marginBottom: '12px' }}
+                onClick={() => {
+                  const authName = selectedBookModal.author;
+                  setSelectedBookModal(null);
+                  navigate(`/author/${encodeURIComponent(authName)}`);
+                }}
+              >
+                <AuthorAvatar name={selectedBookModal.author} size={26} />
+                <span className="author-name-text" style={{ color: '#047857', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'underline' }}>
+                  By {selectedBookModal.author} →
+                </span>
+              </div>
               <p style={{ fontSize: '0.875rem', color: '#334155', lineHeight: 1.5, marginBottom: '1.5rem' }}>{selectedBookModal.description}</p>
               <div style={{ marginTop: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 <span style={{ fontSize: '1.5rem', fontWeight: 800, color: '#0f172a' }}>${selectedBookModal.price.toFixed(2)}</span>

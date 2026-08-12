@@ -16,8 +16,8 @@ export default function Layout() {
       <footer className="site-footer">
         <div className="footer-content">
           <div className="footer-brand">
-            <h3>Lumina Books & Journals</h3>
-            <p>Empowering academic discovery & global research publishing worldwide.</p>
+            <h3>BookMart</h3>
+            <p>Empowering academic discovery &amp; global research publishing worldwide.</p>
           </div>
           <div className="footer-col">
             <h4>Publications</h4>
@@ -45,7 +45,7 @@ export default function Layout() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2026 Lumina Academic Publishing Inc. All rights reserved.</p>
+          <p>© 2026 BookMart Publishing Inc. All rights reserved.</p>
           <p>ISSN Registered Publisher • Peer-Reviewed Content</p>
         </div>
       </footer>

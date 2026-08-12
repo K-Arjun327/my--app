@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import AuthorAvatar from './AuthorAvatar';
 import './Home.css';
 
 export default function NewArrivals() {
@@ -113,9 +114,6 @@ export default function NewArrivals() {
             <div key={i} className="metric-card" style={{ display: 'flex', flexDirection: 'column', background: 'transparent', border: 'none', boxShadow: 'none', padding: '10px' }}>
               <div className="journal-cover-frame" style={{ height: '260px', borderRadius: '16px', overflow: 'hidden', marginBottom: '0.85rem', position: 'relative', background: '#0c2b1c', boxShadow: '0 8px 24px rgba(12, 43, 28, 0.12)' }}>
                 <img src={item.image} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s ease' }} />
-                <span className="live-pill" style={{ position: 'absolute', top: '10px', right: '10px', background: 'rgba(255, 255, 255, 0.95)', color: '#047857', fontWeight: 800, backdropFilter: 'blur(8px)', borderColor: '#cbe6d7', padding: '4px 10px', fontSize: '0.725rem' }}>
-                  {item.badge}
-                </span>
               </div>
 
               <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
@@ -125,12 +123,16 @@ export default function NewArrivals() {
                 <h3 style={{ fontSize: '1.05rem', fontWeight: 800, margin: '6px 0', lineHeight: 1.35, color: '#0c2b1c' }}>
                   {item.title}
                 </h3>
-                <p
-                  style={{ fontSize: '0.85rem', color: '#047857', fontWeight: 700, margin: '0 0 10px 0', cursor: 'pointer', textDecoration: 'underline' }}
+                <div
+                  className="author-byline"
+                  style={{ marginBottom: '10px' }}
                   onClick={() => navigate(`/author/${encodeURIComponent(item.author)}`)}
                 >
-                  By {item.author} →
-                </p>
+                  <AuthorAvatar name={item.author} size={24} />
+                  <span className="author-name-text" style={{ fontSize: '0.85rem', color: '#047857', fontWeight: 700, textDecoration: 'underline' }}>
+                    By {item.author} →
+                  </span>
+                </div>
 
                 <div style={{ marginTop: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '10px', borderTop: '1px solid #cbe6d7' }}>
                   <span style={{ fontSize: '1.35rem', fontWeight: 800, color: '#0c2b1c' }}>{item.price}</span>

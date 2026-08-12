@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import AuthorAvatar from './AuthorAvatar';
 import './Home.css';
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
           <div>
             <span className="live-pill" style={{ marginBottom: '12px' }}>
               <span className="pulse-dot"></span>
-              Welcome to Lumina Publishing House
+              Welcome to BookMart
             </span>
             <h1 className="welcome-title">
               Order Every Journal & <br />
@@ -90,12 +91,16 @@ export default function Home() {
                 </div>
                 <span style={{ fontSize: '0.775rem', color: '#047857', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em' }}>{b.category}</span>
                 <h4 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#0c2b1c', margin: '6px 0' }}>{b.title}</h4>
-                <p
-                  style={{ fontSize: '0.85rem', color: '#047857', fontWeight: 700, margin: '0 0 1rem 0', cursor: 'pointer', textDecoration: 'underline' }}
+                <div
+                  className="author-byline"
+                  style={{ marginBottom: '1rem' }}
                   onClick={() => navigate(`/author/${encodeURIComponent(b.author)}`)}
                 >
-                  By {b.author} →
-                </p>
+                  <AuthorAvatar name={b.author} size={24} />
+                  <span className="author-name-text" style={{ fontSize: '0.85rem', color: '#047857', fontWeight: 700, textDecoration: 'underline' }}>
+                    By {b.author} →
+                  </span>
+                </div>
 
                 <div style={{ marginTop: 'auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '12px', borderTop: '1px solid #e2e8f0' }}>
                   <span style={{ fontSize: '1.25rem', fontWeight: 800, color: '#0c2b1c' }}>{b.price}</span>

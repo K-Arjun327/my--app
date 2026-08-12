@@ -133,7 +133,7 @@ export default function Contact() {
                 <h4 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 800, color: '#0c2b1c' }}>Editorial Headquarters</h4>
               </div>
               <p style={{ color: '#0a3d24', fontSize: '0.9rem', fontWeight: 700, lineHeight: 1.6, margin: 0 }}>
-                Lumina Publishing Group Headquarters<br />
+                BookMart Publishing Group Headquarters<br />
                 500 Academic Plaza, Suite 1200<br />
                 Boston, MA 02108, United States
               </p>
@@ -147,7 +147,7 @@ export default function Contact() {
                 <h4 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 800, color: '#0c2b1c' }}>Phone & Support Desk</h4>
               </div>
               <p style={{ color: '#0a3d24', fontSize: '0.9rem', fontWeight: 700, lineHeight: 1.6, margin: 0 }}>
-                Toll-Free Hotline: <strong style={{ color: '#047857' }}>+1 (800) 555-LUMINA</strong><br />
+                Toll-Free Hotline: <strong style={{ color: '#047857' }}>+1 (800) 555-BOOKMART</strong><br />
                 International Desk: <strong style={{ color: '#047857' }}>+1 (617) 555-0199</strong><br />
                 Support Hours: Mon – Fri (8:00 AM – 6:00 PM EST)
               </p>
@@ -161,8 +161,8 @@ export default function Contact() {
                 <h4 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 800, color: '#0c2b1c' }}>Official Email Desks</h4>
               </div>
               <p style={{ color: '#0a3d24', fontSize: '0.9rem', fontWeight: 700, lineHeight: 1.6, margin: 0 }}>
-                Orders Desk: <strong style={{ color: '#047857' }}>orders@luminajournals.org</strong><br />
-                Submissions Desk: <strong style={{ color: '#047857' }}>editor@luminajournals.org</strong>
+                Orders Desk: <strong style={{ color: '#047857' }}>orders@bookmart.org</strong><br />
+                Submissions Desk: <strong style={{ color: '#047857' }}>editor@bookmart.org</strong>
               </p>
             </div>
           </div>

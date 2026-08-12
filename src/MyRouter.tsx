@@ -18,12 +18,12 @@ export default function MyRouter() {
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />
-        <Route path="journals" element={<Journals />} />
+        <Route path="new-arrivals" element={<NewArrivals />} />
         <Route path="category" element={<Category />} />
+        <Route path="journals" element={<Journals />} />
         <Route path="author" element={<Author />} />
         <Route path="author/:name" element={<AuthorDetail />} />
         <Route path="author-detail" element={<AuthorDetail />} />
-        <Route path="new-arrivals" element={<NewArrivals />} />
         <Route path="contact" element={<Contact />} />
         <Route path="profile" element={<Profile />} />
         <Route path="about" element={<About />} />
